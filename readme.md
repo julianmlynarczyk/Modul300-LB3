@@ -16,7 +16,7 @@ $ vagrant ssh
 
 Danch sollte im Shell folgendes angezeigt werden:
 
-![](Images/Docker1.png)
+![](Images/Docker1.PNG)
 
 Nun muss man den Apache-Service installieren. Dafür muss man als erstes einen Docker-Container erstellen. Dies wird mit folgenden Befehlen gemacht.
 
@@ -27,7 +27,7 @@ docker build -t apache .
 
 Nun wird der Container erstellt:
 
-![](Images/Docker2.png)
+![](Images/Docker2.PNG)
 
 Nun muss man den Container starten:
 
@@ -42,6 +42,6 @@ curl http://localhost:8080
 
 Danach sollte es im Shell so aussehen:
 
-![](Images/Docker4.png)
+![](Images/Docker4.PNG)
 
 Somit ist die Webseite startklar und der Prozess somit abgeschlossen.
